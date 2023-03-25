@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Simple Interest Calculator</h2>
+      <form>
+        <label for="principal">Principal Amount:</label>
+        <input type="number" id="principal" name="principal"><br>
+        <label for="rate">Rate of Interest (in %):</label>
+        <input type="number" id="rate" name="rate"><br>
+        <label for="time">Time (in years):</label>
+        <input type="number" id="time" name="time"><br><br>
+        <input type="button" value="Calculate" onclick="calculateSimpleInterest()">
+      </form>
+      <br>
+      <p>The Simple Interest is: <span id="result"></span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
